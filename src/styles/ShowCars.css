@@ -1,0 +1,63 @@
+/* Centering and styling the container */
+.car-cards {
+  display: flex;
+  flex-direction: column; /* Keeps the cards stacked vertically */
+  gap: 20px; /* Add some space between cards */
+  margin-top: 20px;
+}
+
+/* Style for individual car cards to take full width */
+.car-card {
+  display: flex; /* Use flexbox for horizontal layout */
+  align-items: center; /* Vertically center content */
+  justify-content: space-between; /* Space between text and image */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%; /* Make the card take full width of its container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.car-card:hover {
+  background-color: #f1f1f1;
+}
+
+/* Center and beautify the search bar */
+.search-bar {
+  display: block;
+  margin: 0 auto 20px auto; /* Center the search bar horizontally and add margin below it */
+  padding: 10px;
+  width: 80%;
+  max-width: 500px; /* Add a max width for aesthetics */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Aligning text in the card */
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Text section (left side) */
+.car-details {
+  flex: 1; /* Ensures text takes up available space */
+  padding-right: 16px; /* Adds space between text and image */
+}
+
+/* Image section (right side) */
+.car-image {
+  width: 150px;         /* Sets a fixed width for the image */
+  height: auto;         /* Maintains the aspect ratio */
+  object-fit: cover;    /* Ensures the image covers the area without stretching */
+  border-radius: 8px;   /* Optional: adds rounded corners */
+}

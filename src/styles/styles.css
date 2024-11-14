@@ -1,0 +1,12 @@
+.box-width {
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  /* Adjust for smaller screens */
+  @media (max-width: 768px) {
+    .box-width {
+      width: 90%;
+    }
+  }
+  

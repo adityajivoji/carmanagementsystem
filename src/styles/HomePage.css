@@ -1,0 +1,22 @@
+.homepage-container {
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+  }
+  
+  .homepage-content {
+    max-width: 600px;
+  }
+  
+  .button-group .btn {
+    width: 150px;
+  }
+  
+  .display-4 {
+    font-weight: bold;
+  }
+  
+  .lead {
+    font-size: 1.2em;
+  }
+  
